@@ -15,7 +15,7 @@ phonebook["Herb"] = 8291235398
 # change dict value
 phonebook["Abe"] = 1111111
 
-# delete
+# delete / remove from dictionary
 del phonebook["Barry"]
 
 # Does Herb exist in the dict phonebook
@@ -41,5 +41,3 @@ print(phonebook.items())
 # bundle key and value together
 for (keys, values) in phonebook.items():
     print(keys, values)
-
-# remove from dictionary
